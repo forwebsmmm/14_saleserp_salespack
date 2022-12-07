@@ -1,0 +1,41 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* saleserp_data_partner_category
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-08 14:58+0000\n"
+"PO-Revision-Date: 2020-12-08 14:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: saleserp_data_partner_category
+#: model:res.partner.category,name:saleserp_data_partner_category.res_partner_category_31
+msgid "Client"
+msgstr "Клиент"
+
+#. module: saleserp_data_partner_category
+#: model:res.partner.category,name:saleserp_data_partner_category.res_partner_category_33
+msgid "Dealer"
+msgstr "Дилер"
+
+#. module: saleserp_data_partner_category
+#: model:res.partner.category,name:saleserp_data_partner_category.res_partner_category_32
+msgid "Designer/Architect"
+msgstr "Дизайнер/Аритектор"
+
+#. module: saleserp_data_partner_category
+#: model:res.partner.category,name:saleserp_data_partner_category.res_partner_category_35
+msgid "Employee"
+msgstr "Сотрудник"
+
+#. module: saleserp_data_partner_category
+#: model:res.partner.category,name:saleserp_data_partner_category.res_partner_category_34
+msgid "Customer Service"
+msgstr "Сервисная служба"

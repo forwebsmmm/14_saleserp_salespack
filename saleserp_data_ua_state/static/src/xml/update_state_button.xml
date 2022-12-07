@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xml:space="preserve">
+    <t t-extend="ListView.buttons">
+      <t t-jquery="button.oe_upgrade_action_button" t-operation="after">
+        <button t-if="widget.modelName == 'saleserp.cities.hierarchy'"
+                class="btn btn-primary oe_update_state_action_button" type="button" accesskey="f">Update States</button>
+      </t>
+    </t>
+</template>

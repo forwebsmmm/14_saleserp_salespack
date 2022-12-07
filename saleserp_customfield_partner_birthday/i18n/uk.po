@@ -1,0 +1,42 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* saleserp_customfield_partner_birthday
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-30 13:08+0000\n"
+"PO-Revision-Date: 2020-11-30 13:08+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: saleserp_customfield_partner_birthday
+#: model:ir.model.fields,field_description:saleserp_customfield_partner_birthday.field_res_partner__birthday
+#: model:ir.model.fields,field_description:saleserp_customfield_partner_birthday.field_res_users__birthday
+msgid "Birthday"
+msgstr "День Народження"
+
+#. module: saleserp_customfield_partner_birthday
+#: model:ir.model,name:saleserp_customfield_partner_birthday.model_res_partner
+msgid "Contact"
+msgstr "Контакт"
+
+#. module: saleserp_customfield_partner_birthday
+#: model:ir.model.fields,field_description:saleserp_customfield_partner_birthday.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Відобразити назву"
+
+#. module: saleserp_customfield_partner_birthday
+#: model:ir.model.fields,field_description:saleserp_customfield_partner_birthday.field_res_partner__id
+msgid "ID"
+msgstr ""
+
+#. module: saleserp_customfield_partner_birthday
+#: model:ir.model.fields,field_description:saleserp_customfield_partner_birthday.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Останні зміни на"

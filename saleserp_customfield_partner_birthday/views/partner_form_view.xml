@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <record model="ir.ui.view" id="extend_base_view_partner_form">
+        <field name="name">extend.base.view.partner.form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='title']" position="after">
+                <field name="birthday"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="res_partner_kanban_birthday_status_inherit">
+        <field name="name">res.partner.kanban.birthday.status</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.res_partner_kanban_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('o_kanban_image_fill_left')]" position="inside">
+                <field name="birthday" invisible="1"/>
+                <div class="birthday"
+                     t-if="moment(record.birthday.raw_value).format('MMM')==moment(Date()).format('MMM')">
+                    <img class='o_kanban_image_inner_pic'
+                         src='/saleserp_customfield_partner_birthday/static/src/img/cake.png'
+                         style="width:25px;height:25px;left:0;right:auto"
+                         t-att-title="moment(record.birthday.raw_value).format('DD-MMM-YYYY')"/>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

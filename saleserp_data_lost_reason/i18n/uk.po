@@ -1,0 +1,61 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* saleserp_data_lost_reason
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-08 14:59+0000\n"
+"PO-Revision-Date: 2020-12-08 14:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: saleserp_data_lost_reason
+#: model:crm.lost.reason,name:saleserp_data_lost_reason.lost_reason_10
+msgid "Demand has been lost"
+msgstr "Пропала потреба"
+
+#. module: saleserp_data_lost_reason
+#: model:crm.lost.reason,name:saleserp_data_lost_reason.lost_reason_6
+msgid "Denied by the factory/constructors"
+msgstr "Відмова фабрики/конструкторів"
+
+#. module: saleserp_data_lost_reason
+#: model:crm.lost.reason,name:saleserp_data_lost_reason.lost_reason_11
+msgid "Did not leave their contacts"
+msgstr "Не залишили контактні дані"
+
+#. module: saleserp_data_lost_reason
+#: model:crm.lost.reason,name:saleserp_data_lost_reason.lost_reason_4
+msgid "Displeased with time frames"
+msgstr "Не влаштували строки"
+
+#. module: saleserp_data_lost_reason
+#: model:crm.lost.reason,name:saleserp_data_lost_reason.lost_reason_8
+msgid "Does not get in touch"
+msgstr "Не виходить на зв'язок"
+
+#. module: saleserp_data_lost_reason
+#: model:crm.lost.reason,name:saleserp_data_lost_reason.lost_reason_7
+msgid "Expecting a discount/action"
+msgstr "Очікують акції/скидки"
+
+#. module: saleserp_data_lost_reason
+#: model:crm.lost.reason,name:saleserp_data_lost_reason.lost_reason_5
+msgid "Have chosen another producer"
+msgstr "Обрали інших виробників"
+
+#. module: saleserp_data_lost_reason
+#: model:crm.lost.reason,name:saleserp_data_lost_reason.lost_reason_9
+msgid "Sleeping"
+msgstr "Сплячі"
+
+#. module: saleserp_data_lost_reason
+#: model:crm.lost.reason,name:saleserp_data_lost_reason.lost_reason_12
+msgid "Wrong call, other"
+msgstr "Помилковий дзвоник, інше"
